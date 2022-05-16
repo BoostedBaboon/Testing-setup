@@ -1,6 +1,11 @@
 # Testing-setup
 Testing setup code for the wing box
 
+_**Important note:**_
+Be sure to turn DEV off !
+
+
+
 Testing procedure:
 1) Set your port in which the sensor box is connected
 2) enter the reference weight that is used for calibrating the sensors.
@@ -10,4 +15,3 @@ Testing procedure:
 6) Enter your first reference height and then the second height when the weight is applied.
 7) Change the complete setup and then when testing has to occur: press enter and data logging will begin.
 8) Press enter once more to stop the data logging.
-9) 
