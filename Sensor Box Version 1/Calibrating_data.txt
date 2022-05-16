@@ -1,0 +1,6 @@
+a Force: -0.023196474135931337
+b Force: 80.0
+a Distance: -0.02213368747233288
+b Distance: 0
+Reference weight: 80N 
+Reference distance: 10.0mm 
