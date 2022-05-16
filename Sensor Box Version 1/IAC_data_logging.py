@@ -250,8 +250,11 @@ else:
             elapsed = tme - time0
             deltatime.append(elapsed)
 
+            if input() == '':
+                Stop = True
 
-            if len(LL) >= 100:
+
+            if Stop:
                 running = False
                 log = False
                 for i in deltatime:
@@ -265,20 +268,11 @@ ytab2 = LL
 
 
 
-print(SD1)
-
 col1 = "Time (s)"
 col2 = "Sensor data distance"
 col3 = "Sensor data force"
 col4 = "Force (N)"
 col5 = "Displacement (mm)"
-
-
-print(LF)
-print(len(timedata))
-print(len(deltatime))
-print(len(LF))
-
 
 data = pd.DataFrame({col1: timedata, col2: SD1, col3: SD2, col4: LF, col5: LL})
 data.to_excel('Sensor data.xlsx', sheet_name='sheet1', index=False)
